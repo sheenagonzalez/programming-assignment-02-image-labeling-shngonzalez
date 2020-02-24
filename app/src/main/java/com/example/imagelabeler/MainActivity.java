@@ -199,10 +199,10 @@ public class MainActivity extends AppCompatActivity {
 
                                             customDrawableView = new CustomDrawableView(getApplicationContext());
                                             frameLayout.addView(customDrawableView);
-                                            customDrawableView.left = left + 150;
+                                            customDrawableView.left = left + 200;
                                             customDrawableView.top = top;
-                                            customDrawableView.width = Math.abs(right - left);
-                                            customDrawableView.height = Math.abs(top - bottom);
+                                            customDrawableView.width = right;
+                                            customDrawableView.height = bottom;
                                             customDrawableView.name = name;
 
                                             customDrawableView.draw(drawableCanvas);
